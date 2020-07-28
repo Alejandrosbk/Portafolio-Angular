@@ -1,1 +1,63 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.fadeIn {
+    animation: fadeIn ease .8s;
+    -webkit-animation: fadeIn ease .8s;
+    -moz-animation: fadeIn ease .8s;
+    -o-animation: fadeIn ease .8s;
+    -ms-animation: fadeIn ease .8s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
