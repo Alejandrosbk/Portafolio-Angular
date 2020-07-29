@@ -1,0 +1,21 @@
+{
+  "equipo" : [ {
+    "email" : "alejofreelance99@gmail.com",
+    "frase" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    "nombre" : "Alejandro Cantillo",
+    "subtitulo" : "Front-end Developer",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/portafolio-angular-76356.appspot.com/o/team-1.jpg?alt=media&token=299cbd9d-90b6-4bfa-8eb0-c0c62ff2e099"
+  }, {
+    "email" : "alejo99sbk@gmail.com",
+    "frase" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    "nombre" : "Alejandro Cantillo",
+    "subtitulo" : "Front-end Developer",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/portafolio-angular-76356.appspot.com/o/team-2.jpg?alt=media&token=9684cfeb-6480-4727-beeb-e1738257dace"
+  }, {
+    "email" : "dvdcg1299@hotmail.com",
+    "frase" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    "nombre" : "Alejandro Cantillo",
+    "subtitulo" : "Front-end Developer",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/portafolio-angular-76356.appspot.com/o/team-3.jpg?alt=media&token=fc93febb-0fb4-439b-9be6-ee28395576eb"
+  } ]
+}

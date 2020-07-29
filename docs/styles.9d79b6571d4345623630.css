@@ -1,0 +1,65 @@
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+svg path,
+svg rect {
+    fill: #000
+}
+
+.fadeIn {
+    animation: fadeIn .8s ease;
+    -webkit-animation: fadeIn .8s ease;
+    -moz-animation: fadeIn ease .8s;
+    -o-animation: fadeIn ease .8s;
+    -ms-animation: fadeIn ease .8s
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 0
+}
+
+::-webkit-scrollbar-button {
+    width: 0;
+    height: 0
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000;
+    border: none
+}
+
+::-webkit-scrollbar-track {
+    background: transparent
+}

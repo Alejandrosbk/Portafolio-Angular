@@ -9,6 +9,11 @@
     border: 0;
 }
 
+svg path,
+svg rect {
+    fill: black;
+}
+
 .fadeIn {
     animation: fadeIn ease .8s;
     -webkit-animation: fadeIn ease .8s;
@@ -60,4 +65,27 @@
     100% {
         opacity: 1;
     }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000000;
+    border: none;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
 }
